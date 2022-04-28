@@ -267,14 +267,25 @@ footer {
     flex-flow: column;
     align-items: center;
     padding-bottom: 10px;
+
+    text-transform: uppercase;
+    animation-name: fade-in-left;
+    animation-iteration-count: 1;
+    animation-duration: .9s;
 }
 .sidebar ul {
     list-style-type: none;
     padding-left: 10px;
 }
+.sidebar ul li {
+    padding: 2px;
+}
 .sidebar ul li a {
     text-decoration: none;
     color: #000;
+}
+.sidebar ul li a:hover{
+    border-bottom: #fcab31 solid;
 }
 .productos h2{
     text-align: center;
