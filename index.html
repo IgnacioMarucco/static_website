@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mieles Lupita</title>
+</head>
+<body>
+    <!-- Header (logo + barra de navegacion) -->
+    <header> 
+        <a href="index.html"><img class="logo" src="public/logo-final.png" alt="Logo de la empresa."></a>
+        <!-- Barra de navegacion -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/conocenos.html">Conocenos</a></li>
+                <li><a href="pages/productos.html">Productos</a></li>
+                <li><a href="pages/servicios.html">Servicios</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main section. Descripcion de la pagina + Productos Destacados + Seccion extra -->
+    <main class="index_main">
+        <!-- Hero Section -->
+        <section class="heroSection">
+            <div class="heroSection--txt">
+                <h1>Mieles Lupita</h1>
+                <h2>Miel Natural de Abejas</h2>
+                <p class="texto">Encontra toda la variedad de productos de calidad que necesitas en nuestra tienda online. Tambien ofrecemos servicios de primer nivel para tu emprendimiento y nos aseguramos que recibas atencion personalizada en todo momento.</p>
+            </div>
+            <div class="heroSection--img">
+                <img  src="public/apicultor.jpg" alt="Imagen de un apicultor.">
+            </div>
+
+        </section>
+        <!-- Productos Destacados Seccion -->
+        <section class="destacados">
+            <h2>Productos DESTACADOS</h2>
+            <!-- Grid con Productos Destacados -->
+            <div class="destacados--grid">
+                <article class="card">
+                    <div class="card--text">
+                        Miel de Eucalipto.
+                    </div>
+                    <div class="card--img">
+                        <img src="public/miel_eucaliptus.jpg" alt="Imagen de miel de eucalipto.">
+                    </div>
+                    <div class="card--precio">
+                        $99.99
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card--text">
+                        Miel de Algarrobo.
+                    </div>
+                    <div class="card--img">
+                        <img src="public/miel_algarrobo.jpg" alt="Imagen de miel de algarrobo.">
+                    </div>
+                    <div class="card--precio">
+                        $99.99
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card--text">
+                        Miel de Citrus.
+                    </div>
+                    <div class="card--img">
+                        <img src="public/miel_eucaliptus.jpg" alt="Imagen de miel de citrus.">
+                    </div>
+                    <div class="card--precio">
+                        $99.99
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Seccion extra, contenido variado -->
+        <section class="seccionExtra"> 
+            <div class="seccionExtra--descripcion">
+                <h2>Receta del mes:</h2>
+                <p>Ensalada de mandarina con naranja, miel y hojas de menta.</p>
+                <img src="public/receta_del_mes.jpg" alt="Imagen de ensalada">
+            </div>
+            <div class="seccionExtra--contenido">
+                <div class="ingredientes">
+                    <h4>Ingredientes:</h4>
+                    <ul>
+                        <li>2 naranjas en rodajas</li>
+                        <li>2 mandarinas en gajos</li>
+                        <li>Miel a gusto</li>
+                        <li>Hojas de menta para decorar</li>
+                    </ul>
+                </div>
+                <div class="instrucciones">
+                    <h4>Instrucciones:</h4>
+                    <ol>
+                        <li>Coloca en una ensaladera o plato extendido las rodajas de naranja. Posteriormente acomoda los gajos de mandarina y agrégales la miel.</li>
+                        <li>Finalmente, utiliza las hojas de menta para decorar tu ensalada.</li>
+                    </ol>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="newsletter--desc">
+                <h4>Subscribete para recibir ofertas y novedades</h4>
+                <img src="public/letter.png" alt="Imagen de una carta.">
+            </div>
+            <div class="newsletter--form">
+                <input class="inputText" type="text" placeholder="Tu Email">
+                <input class="button" type="button" value="Subscribete">
+            </div>
+        </section>
+    </main>
+    <!-- Footer. Redes sociales . -->
+    <footer> 
+        <p class="texto">Copyright &copy; 2022 Mieles Lupita</p>
+        <div class="rrssLinks">
+            <a  href="https://www.facebook.com/" target="_blank"><img class="socialLogo" src="public/logo_facebook.png" alt=""></a>
+            <a  href="https://www.instagram.com/" target="_blank"><img class="socialLogo" src="public/logo_instagram.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>
