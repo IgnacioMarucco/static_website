@@ -358,6 +358,12 @@ footer {
 }
 .googleMap {
     grid-area: googleMap;
+
+    /* ANIMACIONES */
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: .9s;
 }
 
 /* MEDIA QUERIES Presentes en todas las paginas*/
