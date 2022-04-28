@@ -7,3 +7,4 @@ This is an **HTML/CSS** project. **Live version** is [here](https://nacxom.githu
 * Deepened knowledge of how to **structure** a website.
 * Learned how to work with both **GRID** and **FLEXBOX**.
 * Learned about **Mobile First** design strategy and how to make the website **responsive**.
+* Enjoyed stylizing the HTML with **Animations** and **Transitions**
