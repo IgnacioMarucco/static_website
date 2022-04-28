@@ -31,6 +31,11 @@ img {
     align-items: center;
 
     margin: 10px;
+    /* ANIMACIONES */
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: .9s;
 }
 .card .card--text, .card .card--precio {
     text-transform: uppercase;
@@ -100,7 +105,6 @@ footer {
 .socialLogo:hover{
     transform: scale(1.1);
 }
-
 /* Estilos de Paginas */
 /* INDEX */
 /* Estilo grid de index */
@@ -127,10 +131,24 @@ footer {
 .heroSection--txt {
     background-color: #fcab31;
     padding: 5px;
+
+    /* Animacion */
+    animation-name: fade-in-left;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: .9s;
 }
 .heroSection--txt p {
     text-align: justify;
 }
+.heroSection--img {
+    animation-name: fade-in-right;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: .9s;
+}
+
+
 /* Productos Destacados Section */
 .destacados {
     grid-area: destacados;
@@ -449,3 +467,32 @@ footer {
         grid-column-gap: 10px;
     }
 }
+/* ANIMACIONES */
+@keyframes fade-in-left {
+    0%{
+        transform: translate(-300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes fade-in-right {
+    0%{
+        transform: translate(300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
