@@ -18,7 +18,7 @@ img {
     max-width: 100%;
 }
 /* Estilo Cards */
-.card--img img {
+.card--img > img {
     width: 200px;
     height: 200px;
 }
@@ -50,6 +50,11 @@ img {
 /* HEADER */
 #logo{
     width: 60px;
+}
+/* Navbar */
+#navbarNav > ul > li > a:hover{
+    color:#fcab31;
+    border-bottom: solid 1px #fcab31 ;
 }
 /* FOOTER */
 footer {
