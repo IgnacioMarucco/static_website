@@ -322,21 +322,6 @@ footer {
 }
 .formulario {
     grid-area: formulario;
-
-    display: flex;
-    flex-direction: column;
-
-    border-style: solid;
-    background: rgba(38,42,53);
-    color: white;
-    border-color: black;
-    border-radius: 5px;
-    padding: 10px;
-
-    max-width: 400px;
-}
-.inputText {
-    width: 90%;
 }
 .googleMap {
     grid-area: googleMap;
