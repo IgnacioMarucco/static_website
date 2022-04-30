@@ -27,17 +27,16 @@ img {
     text-align: center;
 }
 .card {
-    min-width: 200px;
     background-color: #fcab31;
-}
-.card--img > img {
-    /* width: 200px;
-    height: 200px; */
 }
 /* Color  */
-.btn-color {
-    background-color: #fcab31;
-    border: 1px solid #fcab31;
+.btn-primary {
+    background-color: #941e02;
+    border: 1px solid #931e02;
+}
+.btn-primary:hover {
+    background-color: #ed9e67;
+    border: 1px solid #ed9e67;
 }
 
 /* Secciones Presentes en Todas las paginas */
