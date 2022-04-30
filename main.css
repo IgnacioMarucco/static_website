@@ -19,12 +19,25 @@ img {
 }
 /* Estilo Cards */
 .card-img-top {
-    max-width: 200px;
-    max-height: 200px;
-    }
-.card--img > img {
     width: 200px;
     height: 200px;
+}
+.card-text{
+    width: 200px;
+    text-align: center;
+}
+.card {
+    min-width: 200px;
+    background-color: #fcab31;
+}
+.card--img > img {
+    /* width: 200px;
+    height: 200px; */
+}
+/* Color  */
+.btn-color {
+    background-color: #fcab31;
+    border: 1px solid #fcab31;
 }
 
 /* Secciones Presentes en Todas las paginas */
@@ -228,18 +241,8 @@ footer {
 .sidebar ul li a:hover{
     border-bottom: #fcab31 solid;
 }
-.productos h2{
-    text-align: center;
-}
-.productos--grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
 
-    justify-content: center;
-}
+
 /* SERVICIOS */
 .serviciosDescripcion h2 {
     text-align: center;
@@ -250,14 +253,7 @@ footer {
     margin-right: auto;
     text-align: justify;
 }
-.servicios--grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,250px);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    
-    justify-content: center;
-}
+
 /* CONTACTO */
 .contacto_main {
     display: grid;
