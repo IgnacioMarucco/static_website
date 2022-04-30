@@ -255,6 +255,9 @@ footer {
 .accordion{
     max-width: 800px;
 }
+.accordion-item, .accordion-button{
+    background-color: #FBFBFB;
+}
 /* CONTACTO */
 .contacto_main {
     display: grid;
