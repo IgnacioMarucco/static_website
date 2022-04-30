@@ -252,7 +252,9 @@ footer {
     margin-right: auto;
     text-align: justify;
 }
-
+.accordion{
+    max-width: 800px;
+}
 /* CONTACTO */
 .contacto_main {
     display: grid;
