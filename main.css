@@ -140,7 +140,7 @@ footer {
     grid-area: newsletter;
 }
 .newsletter .form-floating{
-    max-width: 400px;
+    min-width: 90%;
 }
 /* CONOCENOS */
 .imgBackgroundOne{
