@@ -8,11 +8,8 @@
 /*Estilos Presentes en todas las paginas del sitio: */
 body {
     background-color: #FBFBFB;
-    position: relative;
+    /* position: relative; */
     min-height: 100vh;
-}
-main {
-    padding-bottom: 200px;
 }
 img {
     max-width: 100%;
@@ -49,24 +46,11 @@ img {
     width: 60px;
 }
 /* FOOTER */
-footer {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-
-    background-color: rgb(161, 161, 161);
-
-    position: absolute;
-    bottom: 0;  
+footer ul{
+    list-style-type: none;
 }
-.socialLogo {
-    height: 50px;
-    padding: 10px 10px 10px 0 ;
-}
-.socialLogo:hover{
-    transform: scale(1.1);
+footer h5 {
+    text-align: center;
 }
 /* Estilos de Paginas */
 /* INDEX */
