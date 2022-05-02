@@ -52,6 +52,10 @@ footer ul{
 footer h5 {
     text-align: center;
 }
+footer a {
+    text-decoration: none;
+    color: white;
+}
 /* Estilos de Paginas */
 /* INDEX */
 /* Estilo grid de index */
