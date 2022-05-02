@@ -11,129 +11,133 @@
     <title>Mieles Lupita</title>
 </head>
 <body>
-    <!-- Header (logo + barra de navegacion) -->
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container">
-                <!-- Logo -->
-                <a class="navbar-brand" href="index.html" ><img id="logo" src="public/logo-final2.png" alt="Logo empresa"></a>
-                <!-- Hamburguer Menu -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar -->
-                <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
-                    <ul class="navbar-nav text-center ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/conocenos.html">Conocenos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+    <div class="main-wrapper">
+            <!-- Header (logo + barra de navegacion) -->
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="index.html" ><img id="logo" src="public/logo-final2.png" alt="Logo empresa"></a>
+                    <!-- Hamburguer Menu -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar -->
+                    <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
+                        <ul class="navbar-nav text-center ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/conocenos.html">Conocenos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav> 
-    </header>
-    
-    <main class="index_main">
-        <!-- Hero Section -->
-        <section class="heroSection container mt-3">
-            <div class="row">
-                <div class="heroSection--txt col-xs-12 col-md-4 rounded">
-                    <h1>Mieles Lupita</h1>
-                    <h2>Miel Natural de Abejas</h2>
-                    <p>Encontra toda la variedad de productos de calidad que necesitas en nuestra tienda online. Tambien ofrecemos servicios de primer nivel para tu emprendimiento y nos aseguramos que recibas atencion personalizada en todo momento.</p>
+            </nav> 
+        </header>
+        
+        <main class="index_main">
+            <!-- Hero Section -->
+            <section class="heroSection container mt-3">
+                <div class="row">
+                    <div class="heroSection--txt col-xs-12 col-md-4 rounded">
+                        <h1>Mieles Lupita</h1>
+                        <h2>Miel Natural de Abejas</h2>
+                        <p>Encontra toda la variedad de productos de calidad que necesitas en nuestra tienda online. Tambien ofrecemos servicios de primer nivel para tu emprendimiento y nos aseguramos que recibas atencion personalizada en todo momento.</p>
+                    </div>
+                    <div class="heroSection--img col-xs-12 col-md-8">
+                        <img  src="public/apicultor.jpg" alt="Imagen de un apicultor.">
+                    </div>
                 </div>
-                <div class="heroSection--img col-xs-12 col-md-8">
-                    <img  src="public/apicultor.jpg" alt="Imagen de un apicultor.">
-                </div>
-            </div>
 
-        </section>
-        <!-- Productos Destacados Seccion -->
-        <section class="container destacados pt-3">
-            <h2>Productos Destacados</h2>
-            <div class="row g-3 row-cols-auto justify-content-center">
-                <div class="col">
-                    <div class="card align-items-center">
-                        <h5 class="card-title">Miel de Eucalipto</h5>
-                        <img class="card-img-top " src="public/miel_eucaliptus.jpg" alt="Imagen de Miel de Eucalipto.">
-                        <a href="#" class="btn btn-primary">$</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card align-items-center">
-                        <h5 class="card-title">Miel de Algarrobo</h5>
-                        <img class="card-img-top " src="public/miel_algarrobo.jpg" alt="Imagen de miel de algarrobo."">
-                        <a href="#" class="btn btn-primary">$</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card align-items-center">
-                        <h5 class="card-title">Miel de Citrus</h5>
-                        <img class="card-img-top " src="public/miel_eucaliptus.jpg" alt="Imagen de miel de citrus.">
-                        <a href="#" class="btn btn-primary">$</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Newsletter-->
-        <form class="newsletter container text-center" action="">
-            <div class="container-fluid d-flex flex-column align-items-center">
-                <h5 class="">Subscribete para recibir ofertas y novedades</h5>
-                <div class="form-floating text-dark mb-4 d-flex flex-row">
-                    <input type="email" class="form-control" placeholder="@">
-                    <label for="floatingInput">Email</label>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-                
-            </div>
-        </form>
-        <!-- Clases apicultura -->
-        <section class="tutorias">
-            <div class="container">
-                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/apCLQgCqeec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-        </section>
-        <!-- Negocios donde encontrarnos. Proveedores. -->
-        <section class="negocios">
-            <div id="carouselNegocios" class="carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="public/empresas.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption d-md-block">
-                            <h5>Donde encontrarnos:</h5>
+            </section>
+            <!-- Productos Destacados Seccion -->
+            <section class="container destacados pt-3">
+                <h2>Productos Destacados</h2>
+                <div class="row g-3 row-cols-auto justify-content-center">
+                    <div class="col">
+                        <div class="card align-items-center">
+                            <h5 class="card-title">Miel de Eucalipto</h5>
+                            <img class="card-img-top " src="public/miel_eucaliptus.jpg" alt="Imagen de Miel de Eucalipto.">
+                            <a href="#" class="btn btn-primary">$</a>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="public/proveedores.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption d-md-block">
-                            <h5>Nuestros clientes:</h5>
+                    <div class="col">
+                        <div class="card align-items-center">
+                            <h5 class="card-title">Miel de Algarrobo</h5>
+                            <img class="card-img-top " src="public/miel_algarrobo.jpg" alt="Imagen de miel de algarrobo."">
+                            <a href="#" class="btn btn-primary">$</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card align-items-center">
+                            <h5 class="card-title">Miel de Citrus</h5>
+                            <img class="card-img-top " src="public/miel_eucaliptus.jpg" alt="Imagen de miel de citrus.">
+                            <a href="#" class="btn btn-primary">$</a>
                         </div>
                     </div>
                 </div>
+            </section>
+            <!-- Newsletter-->
+            <form class="newsletter container text-center" action="">
+                <div class="container-fluid d-flex flex-column align-items-center">
+                    <h5 class="">Subscribete para recibir ofertas y novedades</h5>
+                    <div class="form-floating text-dark mb-4 d-flex flex-row">
+                        <input type="email" class="form-control" placeholder="@">
+                        <label for="floatingInput">Email</label>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    
+                </div>
+            </form>
+            <!-- Clases apicultura -->
+            <section class="tutorias">
+                <h5 class="text-center">Sumate a nuestros cursos de apicultura!</h5>
+                <div class="tutorias-video">
+                    <iframe src="https://www.youtube.com/embed/apCLQgCqeec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </section>
+            <!-- Negocios donde encontrarnos. Proveedores. -->
+            <section class="negocios">
+                <div id="carouselNegocios" class="carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="public/empresas.png" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-md-block">
+                                <h5>Donde encontrarnos:</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="public/proveedores.png" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-md-block">
+                                <h5>Nuestros clientes:</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer. Redes sociales . -->
+        <footer class="footer"> 
+            <p class="texto">Copyright &copy; 2022 Mieles Lupita</p>
+            <div class="rrssLinks">
+                <a  href="https://www.facebook.com/" target="_blank"><img class="socialLogo" src="public/logo_facebook.png" alt=""></a>
+                <a  href="https://www.instagram.com/" target="_blank"><img class="socialLogo" src="public/logo_instagram.png" alt=""></a>
             </div>
-        </section>
-    </main>
-    <!-- Footer. Redes sociales . -->
-    <footer> 
-        <p class="texto">Copyright &copy; 2022 Mieles Lupita</p>
-        <div class="rrssLinks">
-            <a  href="https://www.facebook.com/" target="_blank"><img class="socialLogo" src="public/logo_facebook.png" alt=""></a>
-            <a  href="https://www.instagram.com/" target="_blank"><img class="socialLogo" src="public/logo_instagram.png" alt=""></a>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

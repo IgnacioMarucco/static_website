@@ -71,7 +71,19 @@ footer {
 /* Estilos de Paginas */
 /* INDEX */
 /* Estilo grid de index */
+.main-wrapper {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+.header {
+    grid-area: header;
+}
 .index_main {
+    grid-area: main;
     display: grid;
     grid-template-areas: 
     "hero"
@@ -80,6 +92,9 @@ footer {
     "tutorias"
     "negocios"
     ;
+}
+.footer {
+    grid-area: footer;
 }
 /* Hero Section */
 .heroSection {
@@ -110,7 +125,6 @@ footer {
     animation-duration: .9s;
 }
 
-
 /* Productos Destacados Section */
 .destacados {
     grid-area: destacados;
@@ -129,6 +143,17 @@ footer {
 /* Section Tutorias*/
 .tutorias {
     grid-area: tutorias;
+}
+.tutorias-video {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.tutorias-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 /* Section Negocios */
 .negocios{
@@ -292,9 +317,10 @@ footer {
         min-width: 300px;
     }
     .negocios{
-        max-width: 500px;
+        max-width: 300px;
         justify-self: center;
         align-self: center;
+        padding: 0;
     }
 }
 /* PRODUCTOS */
