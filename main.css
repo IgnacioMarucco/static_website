@@ -76,6 +76,7 @@ footer {
     grid-template-areas: 
     "hero"
     "destacados"
+    "newsletter"
     "negocios"
     "testimonios"
     ;
@@ -116,7 +117,10 @@ footer {
 
     text-align: center;
 }
-
+/* Newsletter */
+.newsletter{
+    grid-area: newsletter;
+}
 /* Section Negocios */
 .negocios{
     grid-area: negocios;
@@ -272,6 +276,7 @@ footer {
         grid-template-areas: 
         "hero hero"
         "destacados destacados"
+        "newsletter newsletter"
         "negocios testimonios"
         ;
         justify-content:center;
