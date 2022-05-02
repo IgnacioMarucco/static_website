@@ -77,8 +77,8 @@ footer {
     "hero"
     "destacados"
     "newsletter"
+    "tutorias"
     "negocios"
-    "testimonios"
     ;
 }
 /* Hero Section */
@@ -126,17 +126,16 @@ footer {
 .newsletter input {
     min-width: 200px;
 }
+/* Section Tutorias*/
+.tutorias {
+    grid-area: tutorias;
+}
 /* Section Negocios */
 .negocios{
     grid-area: negocios;
 }
-.carousel-caption {
+.negocios .carousel-caption {
     top: 0;
-}
-/* Section Testimonios*/
-.testimonios{
-    grid-area: testimonios;
-    border: 1px blue solid;
 }
 /* CONOCENOS */
 .imgBackgroundOne{
@@ -284,7 +283,7 @@ footer {
         "hero hero"
         "destacados destacados"
         "newsletter newsletter"
-        "negocios testimonios"
+        "tutorias negocios"
         ;
 
         justify-content:center;
@@ -295,10 +294,7 @@ footer {
     .negocios{
         max-width: 500px;
         justify-self: center;
-    }
-    .testimonios{
-        max-width: 500px;
-        justify-self: center;
+        align-self: center;
     }
 }
 /* PRODUCTOS */
