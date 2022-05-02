@@ -129,7 +129,9 @@ footer {
 /* Section Negocios */
 .negocios{
     grid-area: negocios;
-    border: 1px red solid;
+}
+.carousel-caption {
+    top: 0;
 }
 /* Section Testimonios*/
 .testimonios{
