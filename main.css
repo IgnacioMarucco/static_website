@@ -76,8 +76,8 @@ footer {
     grid-template-areas: 
     "hero"
     "destacados"
-    "extra"
-    "newsletter"
+    "negocios"
+    "testimonios"
     ;
 }
 /* Hero Section */
@@ -117,30 +117,17 @@ footer {
     text-align: center;
 }
 
-/* Extra Section */
-.seccionExtra{
-    grid-area: extra;
-
-    display: flex;
-    flex-flow: column;
-
-    text-align: center;
-
-    padding: 0 20px;
-    margin-bottom: 50px;
+/* Section Negocios */
+.negocios{
+    grid-area: negocios;
+    width: 100%;
+    border: 1px red solid;
 }
-.ingredientes, .instrucciones {
-    text-align: left;
-}
-.ingredientes ul, .instrucciones ol {
-    list-style-type: none;
-}
-/* Newsletter */
-.newsletter{
-    grid-area: newsletter;
-}
-.newsletter .form-floating{
-    min-width: 90%;
+/* Section Testimonios*/
+.testimonios{
+    grid-area: testimonios;
+    width: 100%;
+    border: 1px blue solid;
 }
 /* CONOCENOS */
 .imgBackgroundOne{
@@ -277,28 +264,18 @@ footer {
     animation-timing-function: ease-in-out;
     animation-duration: .9s;
 }
+
 /* MEDIA QUERIES  Separadas por paginas */
 /* INDEX */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     /* ESTILO grid de index*/
     .index_main {
         display: grid;
         grid-template-areas: 
         "hero hero"
         "destacados destacados"
-        "extra newsletter"
+        "negocios testimonios"
         ;
-    }
-    .seccionExtra{
-        max-width: 70vw;
-        padding: 0;
-    }
-    .seccionExtra--contenido {
-        max-width: 70%;
-        align-self: center;
-    }
-    .newsletter {
-        align-self: center;
     }
 }
 /* PRODUCTOS */
