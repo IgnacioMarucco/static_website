@@ -120,13 +120,11 @@ footer {
 /* Section Negocios */
 .negocios{
     grid-area: negocios;
-    width: 100%;
     border: 1px red solid;
 }
 /* Section Testimonios*/
 .testimonios{
     grid-area: testimonios;
-    width: 100%;
     border: 1px blue solid;
 }
 /* CONOCENOS */
@@ -276,6 +274,16 @@ footer {
         "destacados destacados"
         "negocios testimonios"
         ;
+        justify-content:center;
+
+    }
+    .negocios{
+        max-width: 500px;
+        justify-self: center;
+    }
+    .testimonios{
+        max-width: 500px;
+        justify-self: center;
     }
 }
 /* PRODUCTOS */
