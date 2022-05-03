@@ -132,17 +132,6 @@ footer a {
 .tutorias {
     grid-area: tutorias;
 }
-.tutorias-video {
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    position: relative;
-}
-.tutorias-video iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
 /* Section Negocios */
 .negocios{
     grid-area: negocios;
@@ -305,7 +294,7 @@ footer a {
         min-width: 300px;
     }
     .negocios{
-        max-width: 300px;
+        max-width: 400px;
         justify-self: center;
         align-self: center;
         padding: 0;
