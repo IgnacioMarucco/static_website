@@ -26,7 +26,10 @@ img {
 .card {
     background-color: #fcab31;
 }
-/* Color  */
+.card p {
+    font-size: larger;
+}
+/* Color Botones */
 .btn-primary {
     background-color: #941e02;
     border: 1px solid #931e02;
