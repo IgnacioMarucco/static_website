@@ -22,6 +22,7 @@ img {
 .card-text{
     width: 200px;
     text-align: center;
+    font-size: medium !important;
 }
 .card {
     background-color: #fcab31;
