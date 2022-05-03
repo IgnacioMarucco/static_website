@@ -50,36 +50,34 @@
     <main class="productos_main">
         <!-- Sidebar con filtro de Productos -->
         <section class="sidebar">
-            <h3>Categorias</h3>
-            <ul>
-                <li>Tamaño
-                    <ul>
-                        <li><a href="#">200 Ml</a></li>
-                        <li><a href="#">400 Ml</a></li>
-                        <li><a href="#">1000 Ml</a></li>
-                    </ul>
-                </li>
-                <li>Variedad
-                    <ul>
-                        <li><a href="#">Eucalipto</a></li>
-                        <li><a href="#">Algarrobo</a></li>
-                        <li><a href="#">Citrus</a></li>
-                        <li><a href="#">Romero</a></li>
-                        <li><a href="#">Tomillo</a></li>
-                        <li><a href="#">Romero</a></li>
-                        <li><a href="#">Tilo</a></li>
-                    </ul>
-                </li>
-                <li>Producto
-                    <ul>
-                        <li><a href="#">Regalos</a></li>
-                        <li><a href="#">Salud</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container justify-content-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#filtro-productos" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        Filtros<i class="bi bi-filter"></i>
+                    </button>
+                    <div class="collapse navbar-collapse flex-column align-items-start" id="filtro-productos">
+                        <h6>Categorias</h6>
+                        <ul class="navbar-nav flex-column ">
+                            <li><a href="#">Productos de Colmena</a></li>
+                            <li><a href="#">Regalos</a></li>
+                            <li><a href="#">Indumentaria</a></li>                
+                            <li><a href="#">Herramientas</a></li>
+                            <li><a href="#">Maquinaria</a></li>
+                            <li><a href="#">Oferta</a></li>
+                        </ul>
+                        <h6 class="mt-5">Por peso</h6>
+                        <ul class="navbar-nav flex-column">
+                            <li><a href="#" >1kg</a></li>
+                            <li><a href="#">1/2kg</a></li>
+                            <li><a href="#">1/4kg</a></li>
+                        </ul>
+                    </div>
+                <div>
+            </nav>
         </section>
         <!-- Grid Productos Bootstrap -->
         <section class="container-fluid">
+
             <h2 class="text-center">Productos</h2>
             <div class="row g-3 row-cols-auto justify-content-center"> 
                 <div class="col">

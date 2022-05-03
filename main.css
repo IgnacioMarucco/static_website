@@ -212,24 +212,15 @@ footer a {
 .textoPremios h4 {
     text-align: center;
 }
+
+
 /* PRODUCTOS */
 .sidebar {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    padding-bottom: 10px;
-
     text-transform: uppercase;
-    animation-name: fade-in-left;
-    animation-iteration-count: 1;
-    animation-duration: .9s;
+
 }
 .sidebar ul {
     list-style-type: none;
-    padding-left: 10px;
-}
-.sidebar ul li {
-    padding: 2px;
 }
 .sidebar ul li a {
     text-decoration: none;
@@ -238,7 +229,6 @@ footer a {
 .sidebar ul li a:hover{
     border-bottom: #fcab31 solid;
 }
-
 
 /* SERVICIOS */
 .serviciosDescripcion h2 {
@@ -336,16 +326,7 @@ footer a {
     .productos {
         width: 100%;
     }
-    .sidebar {
-        width: 300px;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        padding: 20px;
-    }
-    .sidebar ul {
-        list-style-type: none;
-    }  
+
 }
 /* CONTACTO */
 @media screen and (min-width: 768px) {
