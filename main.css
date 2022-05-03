@@ -79,6 +79,7 @@ footer a {
     "newsletter"
     "tutorias"
     "negocios"
+    "testimonios"
     ;
 }
 .footer {
@@ -138,6 +139,25 @@ footer a {
 }
 .negocios .carousel-caption {
     top: 0;
+}
+/* Seccion Testimonios */
+.testimonios {
+    grid-area: testimonios;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+}
+.item-img {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+.item-txt {
+    font-style: italic;
 }
 /* CONOCENOS */
 .imgBackgroundOne{
@@ -286,6 +306,7 @@ footer a {
         "destacados destacados"
         "newsletter newsletter"
         "tutorias negocios"
+        "testimonios testimonios"
         ;
 
         justify-content:center;
@@ -297,7 +318,6 @@ footer a {
         max-width: 400px;
         justify-self: center;
         align-self: center;
-        padding: 0;
     }
 }
 /* PRODUCTOS */
