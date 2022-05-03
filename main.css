@@ -331,8 +331,7 @@ footer a {
         ;
     }
     .googleMap {
-        width: 550px;
-        text-align: center;
+        max-width: 80vw;
     }
 }
 @media screen and (min-width: 1024px) {
