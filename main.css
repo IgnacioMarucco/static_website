@@ -8,13 +8,17 @@
 /*Estilos Presentes en todas las paginas del sitio: */
 body {
     background-color: #FBFBFB;
-    /* position: relative; */
     min-height: 100vh;
 }
 img {
     max-width: 100%;
 }
+
 /* Estilo Cards */
+.card {
+    background-color: #fcab31;
+    min-width: 250px;
+}
 .card-img-top {
     width: 200px;
     height: 200px;
@@ -23,10 +27,6 @@ img {
     width: 200px;
     text-align: center;
     font-size: medium !important;
-}
-.card {
-    background-color: #fcab31;
-    min-width: 250px;
 }
 .card p {
     font-size: larger;
@@ -70,6 +70,7 @@ footer a {
 .bi-facebook, .bi-instagram {
     font-size: 2em;
 }
+
 /* Estilos de Paginas */
 /* INDEX */
 /* Estilo grid de index */
@@ -96,9 +97,7 @@ footer a {
     "testimonios"
     ;
 }
-.footer {
-    grid-area: footer;
-}
+
 /* Hero Section */
 .heroSection {
     grid-area: hero;
@@ -134,6 +133,7 @@ footer a {
 
     text-align: center;
 }
+
 /* Newsletter */
 .newsletter{
     grid-area: newsletter;
@@ -143,10 +143,12 @@ footer a {
 .newsletter input {
     min-width: 200px;
 }
+
 /* Section Tutorias*/
 .tutorias {
     grid-area: tutorias;
 }
+
 /* Section Negocios */
 .negocios{
     grid-area: negocios;
@@ -154,6 +156,7 @@ footer a {
 .negocios .carousel-caption {
     top: 0;
 }
+
 /* Seccion Testimonios */
 .testimonios {
     grid-area: testimonios;
@@ -173,6 +176,11 @@ footer a {
 .item-txt {
     font-style: italic;
 }
+
+.footer {
+    grid-area: footer;
+}
+
 /* CONOCENOS */
 .imgBackgroundOne{
     background-image: url("public/apicultor_familia2_smaller.jpg");
@@ -198,34 +206,30 @@ footer a {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 45vh;
+    height: 35vh;
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
 }
 .textoConocenos, .textoPremios {
     font-style: italic;
-    padding: 10px 10px 0 10px   ;
+    padding: 10px;
 }
-
 .historia, .premios {
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 }
 .listaPremios {
-    padding: 5px;
     list-style-type: none;
-    text-align: center;
 }
-.textoPremios h4 {
-    text-align: center;
-}
-
 
 /* PRODUCTOS */
+.productos_main {
+    display: flex;
+    flex-flow: column;
+}
 .sidebar {
     text-transform: uppercase;
-
 }
 .sidebar ul {
     list-style-type: none;
@@ -239,13 +243,7 @@ footer a {
 }
 
 /* SERVICIOS */
-.serviciosDescripcion h2 {
-    
-}
 .serviciosDescripcion {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
 }
 .accordion{
@@ -324,18 +322,15 @@ footer a {
         align-self: center;
     }
 }
+
 /* PRODUCTOS */
 @media screen and (min-width:768px){
     .productos_main {
-        display: flex;
         flex-flow: row;
         align-items: center;
     }
-    .productos {
-        width: 100%;
-    }
-
 }
+
 /* CONTACTO */
 @media screen and (min-width: 768px) {
     .contacto_main {
