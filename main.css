@@ -26,6 +26,7 @@ img {
 }
 .card {
     background-color: #fcab31;
+    min-width: 250px;
 }
 .card p {
     font-size: larger;
@@ -209,7 +210,7 @@ footer a {
 
 .historia, .premios {
     padding: 5px;
-    text-align: justify;
+    text-align: center;
 }
 .listaPremios {
     padding: 5px;
@@ -239,13 +240,13 @@ footer a {
 
 /* SERVICIOS */
 .serviciosDescripcion h2 {
-    text-align: center;
+    
 }
 .serviciosDescripcion {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    text-align: center;
 }
 .accordion{
     max-width: 800px;
