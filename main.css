@@ -36,12 +36,25 @@ img {
 }
 /* Color Botones */
 .btn-primary {
-    background-color: #941e02;
-    border: 1px solid #931e02;
+    background-color: #0f2535;
+    border: 1px solid #0f2535;
 }
+
 .btn-primary:hover {
-    background-color: #ed9e67;
-    border: 1px solid #ed9e67;
+        background-color: #1b4463;
+        border: 1px solid #1b4463;
+}
+
+.btn-primary:focus {
+    background-color: #1b4463;
+    border: 1px solid #1b4463;
+    box-shadow: none !important;
+}
+
+.btn-primary:active {
+    background-color: #1b4463;
+    border: 1px solid #1b4463;
+    box-shadow: none !important;
 }
 
 /* Secciones Presentes en Todas las paginas */
@@ -244,6 +257,10 @@ footer a {
 }
 .accordion-item, .accordion-button{
     background-color: #FBFBFB;
+}
+.accordion-button:not(.collapsed ){
+    background-color: #fcab31;
+    color: #000;    
 }
 /* CONTACTO */
 .contacto_main {
