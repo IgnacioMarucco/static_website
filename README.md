@@ -3,13 +3,16 @@ Simple implementation of a static website from Coderhouse [curriculum](https://d
 
 This is an **HTML/CSS** project. **Live version** is [here](https://nacxom.github.io/static_website/index.html).
 ### First stage | Grid and Flexbox Layouts.
-**The benefits I got from this stage:**
 * Deepened knowledge of how to **structure** a website.
 * Learned how to work with both **GRID** and **FLEXBOX**.
 * Learned about **Mobile First** design strategy and how to make the website **responsive**.
-* **Animations** and **Transitions**
+* **Animations** and **Transitions**.
 
 ### Second stage | Bootstrap.
-**The benefits I got from this stage:**
 * Learned how to work with a **Framework**.
 * **Bootstrap** GRID system for responsive web design.
+
+### Third stage | SASS.
+* **SCSS** syntax.
+* **Import** partial files.
+* **Variables**.
