@@ -21,9 +21,11 @@ $desktop: 1024px;
 // Font Family -  Font Size
 h1,h2,h3,h4,h5,h6{
     font-family: $font-header;
+    color: $color-dark;
 }
 p {
     font-family: $font-text;
+    color: $color-dark;
 }
 a {
     font-family: $font-header;
