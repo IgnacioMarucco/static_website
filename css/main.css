@@ -45,6 +45,36 @@ table {
 img {
   max-width: 100%; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anybody", Helvetica, sans-serif; }
+
+p {
+  font-family: Verdana, serif; }
+
+a {
+  font-family: "Anybody", Helvetica, sans-serif; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.7rem; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h5 {
+  font-size: 1.5rem; }
+
+h6 {
+  font-size: 1.2rem; }
+
+p {
+  font-size: 1.1rem; }
+
 .main-wrapper {
   display: flex;
   flex-direction: column;
@@ -201,10 +231,9 @@ footer {
     margin: 0 auto;
     position: relative; }
   .historia .textoSobreImagen, .premios .textoSobreImagen {
-    color: white;
-    font-size: 1.5em;
+    color: #FFF;
     position: absolute;
-    text-shadow: 2px 2px #5c3d13;
+    text-shadow: 2px 2px #000000;
     width: 100%;
     text-align: center;
     top: 30%; }
@@ -262,6 +291,9 @@ footer {
   .productos_main {
     flex-flow: row;
     align-items: center; }
+  .serviciosDescripcion {
+    max-width: 70vw;
+    margin: auto; }
   .contacto_main {
     grid-template-areas: "info info" "horarios formulario" "googleMap googleMap"; } }
 
