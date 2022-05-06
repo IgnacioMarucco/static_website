@@ -21,14 +21,13 @@ footer {
 
         &:hover {
             color: $color-primary !important;
-            border-bottom: solid 1px $color-primary;
         }
     }
 }
 
 // CARDS
 .card {
-    background-color: #fcab31;
+    background-color: $color-primary;
     min-width: 250px;
 
     &:hover{
@@ -62,31 +61,33 @@ footer {
 // BOOTSTRAP ICONS
 .bi-facebook, .bi-instagram {
     font-size: 2em;
+    &:hover {
+        color: $color-primary;
+    }
 }
 .bi-person-fill, .bi-cart {
     font-size: 1.3rem !important;
 }
 
-// BOOTSTRAP BOTONES cambiar colores por variables >>>>>>>>>>>>>>>>>>>
-/* Color Botones */
+// BOOTSTRAP BUTTONS
 .btn-primary {
-    background-color: #0f2535;
-    border: 1px solid #0f2535;
+    background-color: $color-secondary;
+    border: 1px solid $color-secondary;
 }
 
 .btn-primary:hover {
-        background-color: #1b4463;
-        border: 1px solid #1b4463;
+        background-color: $color-secondary-pseudo;
+        border: 1px solid $color-secondary-pseudo;
 }
 
 .btn-primary:focus {
-    background-color: #1b4463;
-    border: 1px solid #1b4463;
+    background-color: $color-secondary-pseudo;
+    border: 1px solid $color-secondary-pseudo;
     box-shadow: none !important;
 }
 
 .btn-primary:active {
-    background-color: #1b4463;
-    border: 1px solid #1b4463;
+    background-color: $color-secondary-pseudo;
+    border: 1px solid $color-secondary-pseudo;
     box-shadow: none !important;
 }

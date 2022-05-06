@@ -4,7 +4,8 @@
 // Variables:
 // Colores
 $color-primary: #fcab31;
-$color-secondary: #0f2535;;
+$color-secondary: #0f2535;
+$color-secondary-pseudo: #1b4463; 
 $color-alternative: #0b9442;
 $color-bright: #FFF;
 $color-dark: #000;
@@ -17,6 +18,7 @@ $font-text: Verdana, serif;
 $laptop: 768px;
 $desktop: 1024px;
 
+// Font Family -  Font Size
 h1,h2,h3,h4,h5,h6{
     font-family: $font-header;
 }
