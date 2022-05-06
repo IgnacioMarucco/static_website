@@ -167,6 +167,9 @@ footer {
   .newsletter input {
     min-width: 200px; }
 
+.tutorias {
+  align-self: center; }
+
 .negocios .carousel-caption {
   top: 0; }
 
