@@ -1,0 +1,20 @@
+/* PRODUCTOS */
+.productos_main {
+    display: flex;
+    flex-flow: column;
+
+    .sidebar {
+        text-transform: uppercase;
+        .navbar {
+            background-color: $color-bright !important;
+        }
+        a{
+            color: $color-dark;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: solid 1px $color-primary;
+            }
+        }
+    }
+}

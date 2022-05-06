@@ -1,0 +1,66 @@
+// PAGINA INDEX
+// SECTION HERO
+.heroSection {
+    text-align: center;
+
+    .heroSection--txt {
+        background-color: #fcab31;
+        padding: 0px 10px;
+        align-self: center;
+
+        p {
+            text-align: justify;
+        }        
+    }
+
+    .heroSection--img {
+        align-self: center;
+    }
+}
+
+// SECTION PRODUCTOS DESTACADOS
+.destacados {
+    text-align: center;
+}
+
+// SECTION NEWSLETTER
+.newsletter{
+    max-width: 550px;
+    padding: 30px 0;
+
+    input {
+        min-width: 200px;
+    }
+}
+
+// SECTION TUTORIAS
+
+// SECTION NEGOCIOS
+.negocios{
+    .carousel-caption {
+        top: 0;
+    } 
+}
+
+// SECTION TESTIMONIOS
+.testimonios {
+    .item {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .item-img {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .item-txt {
+        font-style: italic;
+    }
+}
+
+

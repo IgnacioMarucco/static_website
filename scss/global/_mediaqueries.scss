@@ -1,0 +1,57 @@
+// MEDIA QUERIES
+//Pantalla Laptop
+@media screen and (min-width: $laptop) {
+    //PAGINA INDEX
+    // GRID Index
+    .index_main {
+        display: grid;
+        grid-template-areas: 
+        "hero hero"
+        "destacados destacados"
+        "newsletter newsletter"
+        "tutorias negocios"
+        "testimonios testimonios"
+        ;
+
+        justify-content:center;
+    }
+    // Ajustes Secciones
+    .newsletter input {
+        min-width: 300px;
+    }
+    .negocios{
+        max-width: 400px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    //PAGINA PRODUCTOS
+    .productos_main {
+        flex-flow: row;
+        align-items: center;
+    }
+
+    //PAGINA CONTACTO
+    .contacto_main {
+        grid-template-areas: 
+        "info info"
+        "horarios formulario"
+        "googleMap googleMap"
+        ;
+    }
+
+}
+
+//Pantalla Desktop
+
+@media screen and (min-width: $desktop) {
+    .contacto_main {
+        grid-template-areas: 
+        "info horarios formulario"
+        "googleMap googleMap googleMap"
+        ;
+    }
+    .googleMap {
+        max-width: 80vw;
+    }
+}

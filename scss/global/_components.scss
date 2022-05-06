@@ -1,0 +1,92 @@
+// HEADER
+header {
+    font-family: $font-header;
+    #logo{
+        width: 60px;
+    }
+    li > a:hover {
+        color: $color-primary !important;
+        border-bottom: solid 1px $color-primary;
+    }
+    
+}
+
+// FOOTER
+footer {
+    font-family: $font-header !important;
+
+    a{
+        color: $color-bright;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-primary !important;
+            border-bottom: solid 1px $color-primary;
+        }
+    }
+}
+
+// CARDS
+.card {
+    background-color: #fcab31;
+    min-width: 250px;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+    .card-img-top {
+        width: 200px;
+        height: 200px;
+    }
+    .card-text{
+        width: 200px;
+        text-align: center;
+        font-size: medium !important;
+    }
+    p {
+        font-size: larger;
+    }
+}
+// ACCORDION
+.accordion{
+    max-width: 800px;
+
+    .accordion-button:not(.collapsed){
+        background-color: $color-primary;
+        color: $color-dark;    
+    }
+}
+
+
+
+// BOOTSTRAP ICONS
+.bi-facebook, .bi-instagram {
+    font-size: 2em;
+}
+.bi-person-fill, .bi-cart {
+    font-size: 1.3rem !important;
+}
+
+// BOOTSTRAP BOTONES cambiar colores por variables >>>>>>>>>>>>>>>>>>>
+/* Color Botones */
+.btn-primary {
+    background-color: #0f2535;
+    border: 1px solid #0f2535;
+}
+
+.btn-primary:hover {
+        background-color: #1b4463;
+        border: 1px solid #1b4463;
+}
+
+.btn-primary:focus {
+    background-color: #1b4463;
+    border: 1px solid #1b4463;
+    box-shadow: none !important;
+}
+
+.btn-primary:active {
+    background-color: #1b4463;
+    border: 1px solid #1b4463;
+    box-shadow: none !important;
+}

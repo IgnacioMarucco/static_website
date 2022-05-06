@@ -1,0 +1,63 @@
+// LAYOUT MAIN-WRAPPER
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+// LAYOUT MAIN PAGE
+.index_main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "hero"
+    "destacados"
+    "newsletter"
+    "tutorias"
+    "negocios"
+    "testimonios"
+    ;
+
+    .heroSection {
+        grid-area: hero;
+    }
+    .destacados {
+        grid-area: destacados;
+    }
+    .newsletter{
+        grid-area: newsletter;
+    }
+    .negocios {
+        grid-area: negocios;
+    }
+    .testimonios {
+        grid-area: testimonios;
+    }
+}
+
+// LAYOUT PAGINA CONTACTO
+
+/* CONTACTO */
+.contacto_main {
+    display: grid;
+    grid-template-areas: 
+    "info"
+    "horarios"
+    "formulario"
+    "googleMap"
+    ;
+    grid-row-gap: 2rem ;
+    grid-column-gap: 2rem;
+}
+.infoContacto{
+    grid-area: info;
+}
+.horariosContacto {
+    grid-area: horarios;
+}
+.formulario {
+    grid-area: formulario;
+}
+.googleMap {
+    grid-area: googleMap;
+}

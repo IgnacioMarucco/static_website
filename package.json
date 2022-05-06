@@ -1,0 +1,25 @@
+{
+  "name": "static_website",
+  "version": "1.0.0",
+  "description": "Simple implementation of a static website from Coderhouse [curriculum](https://drive.google.com/file/d/1pqcSCouyEF0uN_CWZbVqdJkH0HrNZ3VQ/view).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nacxom/static_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nacxom/static_website/issues"
+  },
+  "homepage": "https://github.com/Nacxom/static_website#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
