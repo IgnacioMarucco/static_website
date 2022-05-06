@@ -3,6 +3,15 @@
     color: $color-dark;
     padding: 10px;
     text-align: center;
+    .imgBackgroundOne{
+        background: url("./../public/apicultor_familia2_smaller.jpg");
+        z-index: -1; 
+    }
+    .imgBackgroundTwo{
+        background-image: url("./../public/apicultor_familia.jpg");
+        z-index: -1;
+    }
+    
     .parallax {
         background-attachment: fixed;
         background-position: center;
@@ -31,15 +40,4 @@
 }
 
 
-.imgBackgroundOne{
-    background-image: url("../../public/apicultor_familia2_smaller.jpg");
-    z-index: -1; 
-}
-
-
-
-.imgBackgroundTwo{
-    background-image: url("../../public/apicultor_familia.jpg");
-    z-index: -1;
-}
 

@@ -226,6 +226,12 @@ footer {
   color: #000;
   padding: 10px;
   text-align: center; }
+  .historia .imgBackgroundOne, .premios .imgBackgroundOne {
+    background: url("./../public/apicultor_familia2_smaller.jpg");
+    z-index: -1; }
+  .historia .imgBackgroundTwo, .premios .imgBackgroundTwo {
+    background-image: url("./../public/apicultor_familia.jpg");
+    z-index: -1; }
   .historia .parallax, .premios .parallax {
     background-attachment: fixed;
     background-position: center;
@@ -245,14 +251,6 @@ footer {
   .historia .textoConocenos, .premios .textoConocenos {
     font-style: italic;
     padding: 10px; }
-
-.imgBackgroundOne {
-  background-image: url("../../public/apicultor_familia2_smaller.jpg");
-  z-index: -1; }
-
-.imgBackgroundTwo {
-  background-image: url("../../public/apicultor_familia.jpg");
-  z-index: -1; }
 
 /* PRODUCTOS */
 .productos_main {
