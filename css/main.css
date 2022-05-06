@@ -246,11 +246,11 @@ footer {
     font-style: italic;
     padding: 10px; }
 
-.historia .imgBackgroundOne {
+.imgBackgroundOne {
   background-image: url("../../public/apicultor_familia2_smaller.jpg");
   z-index: -1; }
 
-.premios .imgBackgroundTwo {
+.imgBackgroundTwo {
   background-image: url("../../public/apicultor_familia.jpg");
   z-index: -1; }
 
