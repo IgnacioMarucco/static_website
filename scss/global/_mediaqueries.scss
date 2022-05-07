@@ -1,7 +1,21 @@
 // MEDIA QUERIES
-//Pantalla Laptop
-@media screen and (min-width: $laptop) {
+//Pantalla Tablet
+@media screen and (min-width: $tablet) {
     //PAGINA INDEX
+    .header-index {
+        .bg-dark {
+            // Transparencia sobre hero section
+            background: #0000 !important;
+        }
+        // Legibilidad links
+        .nav-link {
+            color: $color-bright !important;
+        }
+        .active {
+            color: $color-primary !important;
+        }
+    }
+
     // GRID Index
     .index_main {
         display: grid;
@@ -15,6 +29,8 @@
     }
     // Ajustes Secciones
     .heroSection {
+        // hero section bajo header
+        margin-top: -6.7rem;
         p {
             max-width: 40vw;
         }
@@ -50,9 +66,9 @@
 
 }
 
-//Pantalla Desktop
+//Pantalla Laptop
 
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $laptop) {
     .contacto_main {
         grid-template-areas: 
         "info horarios formulario"

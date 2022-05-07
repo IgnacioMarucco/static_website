@@ -184,7 +184,7 @@ footer {
 
 .heroSection {
   margin-top: -1rem;
-  min-height: calc(100vh - 91px);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,11 +295,19 @@ footer {
     color: #FFF; }
 
 @media screen and (min-width: 768px) {
+  .header-index .bg-dark {
+    background: #0000 !important; }
+  .header-index .nav-link {
+    color: #FFF !important; }
+  .header-index .active {
+    color: #fcab31 !important; }
   .index_main {
     display: grid;
     grid-template-areas: "hero hero" "destacados destacados" "newsletter newsletter" "tutorias negocios" "testimonios testimonios"; }
-  .heroSection p {
-    max-width: 40vw; }
+  .heroSection {
+    margin-top: -6.7rem; }
+    .heroSection p {
+      max-width: 40vw; }
   .newsletter input {
     min-width: 300px; }
   .negocios {
