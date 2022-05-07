@@ -187,8 +187,8 @@ footer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: linear-gradient(180deg, #0009, #0002, #0000), url("./../public/colmenas.jpg");
+  justify-content: flex-end;
+  background: linear-gradient(180deg, #0009, #0002, #0009), url("./../public/colmenas.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -202,6 +202,10 @@ footer {
         font-weight: bolder;
         color: #FFF;
         text-shadow: 1px 1px #000; }
+  .heroSection .benefits {
+    color: #FFF;
+    font-size: 1.5rem;
+    padding: 1rem; }
 
 .destacados {
   text-align: center; }
