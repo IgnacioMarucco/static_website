@@ -184,7 +184,7 @@ footer {
 
 .heroSection {
   margin-top: -1rem;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -309,7 +309,8 @@ footer {
     display: grid;
     grid-template-areas: "hero hero" "destacados destacados" "newsletter newsletter" "tutorias negocios" "testimonios testimonios"; }
   .heroSection {
-    margin-top: -6.7rem; }
+    margin-top: -6.7rem;
+    min-height: 100vh; }
     .heroSection p {
       max-width: 40vw; }
   .newsletter input {
