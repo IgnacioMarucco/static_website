@@ -1,20 +1,34 @@
 // PAGINA INDEX
 // SECTION HERO
 .heroSection {
-    text-align: center;
+    margin-top: -1rem;
+    min-height: calc(100vh - 91px);
+    // min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background: linear-gradient(180deg,#0009,#0002, #0000), url("./../public/colmenas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    .heroSection--txt {
-        background-color: $color-primary;
-        padding: 0px 10px;
-        align-self: center;
+    .hero--txtBackground{
+        padding: 1rem;
 
-        p {
-            text-align: justify;
-        }        
-    }
-
-    .heroSection--img {
-        align-self: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(360deg, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.03) 100%);
+        .heroSection--txt {
+            padding: 10px;
+            
+            h1,p{
+                font-weight: bolder;
+                color: $color-bright;
+                text-shadow: 1px 1px #000;
+            }
+            
+        }
     }
 }
 

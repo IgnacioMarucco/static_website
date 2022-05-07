@@ -85,7 +85,8 @@ p {
 .index_main {
   grid-area: main;
   display: grid;
-  grid-template-areas: "hero" "destacados" "newsletter" "tutorias" "negocios" "testimonios"; }
+  grid-template-areas: "hero" "destacados" "newsletter" "tutorias" "negocios" "testimonios";
+  justify-content: stretch; }
   .index_main .heroSection {
     grid-area: hero; }
   .index_main .destacados {
@@ -182,15 +183,25 @@ footer {
   box-shadow: none !important; }
 
 .heroSection {
-  text-align: center; }
-  .heroSection .heroSection--txt {
-    background-color: #fcab31;
-    padding: 0px 10px;
-    align-self: center; }
-    .heroSection .heroSection--txt p {
-      text-align: justify; }
-  .heroSection .heroSection--img {
-    align-self: center; }
+  margin-top: -1rem;
+  min-height: calc(100vh - 91px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #0009, #0002, #0000), url("./../public/colmenas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .heroSection .hero--txtBackground {
+    padding: 1rem;
+    background: black;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.03) 100%); }
+    .heroSection .hero--txtBackground .heroSection--txt {
+      padding: 10px; }
+      .heroSection .hero--txtBackground .heroSection--txt h1, .heroSection .hero--txtBackground .heroSection--txt p {
+        font-weight: bolder;
+        color: #FFF;
+        text-shadow: 1px 1px #000; }
 
 .destacados {
   text-align: center; }
@@ -286,8 +297,9 @@ footer {
 @media screen and (min-width: 768px) {
   .index_main {
     display: grid;
-    grid-template-areas: "hero hero" "destacados destacados" "newsletter newsletter" "tutorias negocios" "testimonios testimonios";
-    justify-content: center; }
+    grid-template-areas: "hero hero" "destacados destacados" "newsletter newsletter" "tutorias negocios" "testimonios testimonios"; }
+  .heroSection p {
+    max-width: 40vw; }
   .newsletter input {
     min-width: 300px; }
   .negocios {

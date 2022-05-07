@@ -12,10 +12,13 @@
         "tutorias negocios"
         "testimonios testimonios"
         ;
-
-        justify-content:center;
     }
     // Ajustes Secciones
+    .heroSection {
+        p {
+            max-width: 40vw;
+        }
+    }
     .newsletter input {
         min-width: 300px;
     }
