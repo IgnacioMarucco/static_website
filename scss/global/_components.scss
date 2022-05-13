@@ -37,8 +37,7 @@ footer {
         transform: scale(1.05);
     }
     .card-img-top {
-        width: 200px;
-        height: 200px;
+        @include size (200px, 200px);
     }
     .card-text{
         width: 200px;

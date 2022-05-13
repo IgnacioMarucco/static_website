@@ -73,8 +73,7 @@
 
     .item-img {
         margin: 0 auto;
-        width: 200px;
-        height: 200px;
+        @include size (200px, 200px);
     }
 
     .item-txt {

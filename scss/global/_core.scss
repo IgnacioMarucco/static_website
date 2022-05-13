@@ -48,3 +48,9 @@ $font-size-dec : 4px;
     display: flex;
     flex-direction: column;
 }
+
+// Mixin
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
