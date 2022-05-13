@@ -18,7 +18,7 @@ $font-text: Verdana, serif;
 $tablet: 768px;
 $laptop: 1024px;
 
-// Font Family -  Font Size
+// Font Family -
 h1,h2,h3,h4,h5,h6{
     font-family: $font-header;
     color: $color-dark;
@@ -30,26 +30,21 @@ p {
 a {
     font-family: $font-header;
 }
-h1 {
-    font-size: 2.5rem;
-}
-h2{
-    font-size: 2rem;
-}
-h3{
-    font-size: 1.7rem;
-}
-h4{
-    font-size: 1.6rem;
-}
-h5 {
-    font-size: 1.5rem;
-}
-h6 {
-    font-size: 1.2rem;
-}
-p {
-    font-size: 1.1rem;
+
+// Font-Sizes
+$font-size-list : h1, h2, h3, h4, h5, h6, p;
+$font-size-base : 16px;
+$font-size-upper : 40px;
+$font-size-dec : 4px;
+@each $element in $font-size-list{
+    #{$element} {
+        font-size : ($font-size-upper / $font-size-base) + rem;
+        }
+    $font-size-upper : $font-size-upper - $font-size-dec;
 }
 
-
+// Extend
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}

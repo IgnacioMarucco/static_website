@@ -1,7 +1,6 @@
 /* PRODUCTOS */
 .productos_main {
-    display: flex;
-    flex-flow: column;
+    @extend .display-flex-column;
 
     .sidebar {
         text-transform: uppercase;

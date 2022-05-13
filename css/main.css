@@ -60,26 +60,28 @@ h1 {
   font-size: 2.5rem; }
 
 h2 {
-  font-size: 2rem; }
+  font-size: 2.25rem; }
 
 h3 {
-  font-size: 1.7rem; }
+  font-size: 2rem; }
 
 h4 {
-  font-size: 1.6rem; }
+  font-size: 1.75rem; }
 
 h5 {
   font-size: 1.5rem; }
 
 h6 {
-  font-size: 1.2rem; }
+  font-size: 1.25rem; }
 
 p {
-  font-size: 1.1rem; }
+  font-size: 1rem; }
+
+.display-flex-column, .main-wrapper, .heroSection, .productos_main {
+  display: flex;
+  flex-direction: column; }
 
 .main-wrapper {
-  display: flex;
-  flex-direction: column;
   row-gap: 1rem; }
 
 .index_main {
@@ -185,8 +187,6 @@ footer {
 .heroSection {
   margin-top: -1rem;
   min-height: 90vh;
-  display: flex;
-  flex-direction: column;
   justify-content: flex-end;
   background: linear-gradient(180deg, #0009, #0002, #0009), url("./../public/colmenas.jpg");
   background-position: center;
@@ -225,8 +225,6 @@ footer {
 .testimonios {
   color: #000; }
   .testimonios .item {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     text-align: center;
     max-width: 500px; }
@@ -268,18 +266,15 @@ footer {
     padding: 10px; }
 
 /* PRODUCTOS */
-.productos_main {
-  display: flex;
-  flex-flow: column; }
-  .productos_main .sidebar {
-    text-transform: uppercase; }
-    .productos_main .sidebar .navbar {
-      background-color: #FFF !important; }
-    .productos_main .sidebar a {
-      color: #000;
-      text-decoration: none; }
-      .productos_main .sidebar a:hover {
-        border-bottom: solid 1px #fcab31; }
+.productos_main .sidebar {
+  text-transform: uppercase; }
+  .productos_main .sidebar .navbar {
+    background-color: #FFF !important; }
+  .productos_main .sidebar a {
+    color: #000;
+    text-decoration: none; }
+    .productos_main .sidebar a:hover {
+      border-bottom: solid 1px #fcab31; }
 
 /* SERVICIOS */
 .serviciosDescripcion {
