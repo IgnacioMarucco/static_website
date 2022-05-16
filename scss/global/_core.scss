@@ -11,8 +11,9 @@ $colors: (
     dark: #000
 );
 
+// Crear clases para colores con each:
 @each $color, $code in $colors {
-    .#{$color} {
+    .color-#{$color} {
         color: $code;
     }
 };

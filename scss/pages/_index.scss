@@ -30,7 +30,6 @@
         }
     }
     .benefits {
-        color: map-get($colors, bright);
         font-size: 1.5rem;
         padding: 1rem;
     }
@@ -64,7 +63,6 @@
 
 // SECTION TESTIMONIOS
 .testimonios {
-    color: map-get($colors, dark);
     .item {
         margin: 0 auto;
         text-align: center;
