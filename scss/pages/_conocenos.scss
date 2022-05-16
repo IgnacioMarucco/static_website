@@ -1,6 +1,6 @@
 // PAGINA CONOCENOS
 .historia, .premios {
-    color: $color-dark;
+    color: map-get($colors, dark);
     padding: 10px;
     text-align: center;
     .imgBackgroundOne{
@@ -24,9 +24,9 @@
         position: relative;
     }
     .textoSobreImagen {
-        color: $color-bright;
+        color: map-get($colors, bright);
         position: absolute;
-        text-shadow: 2px 2px $color-dark;
+        text-shadow: 2px 2px map-get($colors, dark);;
         
         width: 100%;
         text-align: center;

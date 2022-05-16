@@ -9,10 +9,11 @@
         }
         // Legibilidad links
         .nav-link {
-            color: $color-bright !important;
+            color: map-get($colors, bright) !important;
         }
+
         .active {
-            color: $color-primary !important;
+            color: map-get($colors, primary) !important;
         }
     }
 

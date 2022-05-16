@@ -1,6 +1,6 @@
 /* CONTACTO */
 .contacto_main {
-    color: $color-dark;
+    color: map-get($colors, dark);
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -13,7 +13,7 @@
     }
     .formulario {
         h2 {
-            color: $color-bright;
+            color: map-get($colors, bright);
         }
     }
 }

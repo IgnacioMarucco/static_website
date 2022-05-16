@@ -2,13 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 // Variables:
-// Colores
-$color-primary: #fcab31;
-$color-secondary: #0f2535;
-$color-secondary-pseudo: #1b4463; 
-$color-alternative: #0b9442;
-$color-bright: #FFF;
-$color-dark: #000;
+$colors: (
+    primary: #fcab31,
+    secondary: #0f2535,
+    secondary-pseudo: #1b4463,
+    alternative: #0b9442,
+    bright: #FFF,
+    dark: #000
+);
+
+@each $color, $code in $colors {
+    .#{$color} {
+        color: $code;
+    }
+};
 
 // Fuentes
 $font-header: "Anybody", Helvetica, sans-serif;
@@ -18,14 +25,14 @@ $font-text: Verdana, serif;
 $tablet: 768px;
 $laptop: 1024px;
 
-// Font Family -
+// Headings, paragraph, anchor tag     font families
 h1,h2,h3,h4,h5,h6{
     font-family: $font-header;
-    color: $color-dark;
+    color: map-get($colors, dark);
 }
 p {
     font-family: $font-text;
-    color: $color-dark;
+    color: map-get($colors, dark);
 }
 a {
     font-family: $font-header;
@@ -41,16 +48,4 @@ $font-size-dec : 4px;
         font-size : ($font-size-upper / $font-size-base) + rem;
         }
     $font-size-upper : $font-size-upper - $font-size-dec;
-}
-
-// Extend
-.display-flex-column{
-    display: flex;
-    flex-direction: column;
-}
-
-// Mixin
-@mixin size ($width, $height) {
-    width: $width;
-    height: $height;
 }

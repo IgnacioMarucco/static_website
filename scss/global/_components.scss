@@ -4,11 +4,11 @@ header {
     #logo{
         width: 60px;
     }
+    // Hover effect. Reemplazado solo en el index por la legibilidad en hero section
     li > a:hover {
-        color: $color-primary !important;
-        border-bottom: solid 1px $color-primary;
+    color: map-get($colors, primary) !important;
+    border-bottom: solid 1px map-get($colors, primary);
     }
-    
 }
 
 // FOOTER
@@ -16,21 +16,21 @@ footer {
     font-family: $font-header !important;
 
     a{
-        color: $color-bright;
+        color: map-get($colors, bright);
         text-decoration: none;
 
         &:hover {
-            color: $color-primary !important;
+            color: map-get($colors, primary) !important;
         }
     }
     h6 {
-        color: $color-bright !important;
+        color: map-get($colors, bright) !important;
     }
 }
 
 // CARDS
 .card {
-    background-color: $color-primary;
+    background-color: map-get($colors, primary);
     min-width: 250px;
 
     &:hover{
@@ -53,8 +53,8 @@ footer {
     max-width: 800px;
 
     .accordion-button:not(.collapsed){
-        background-color: $color-primary;
-        color: $color-dark;    
+        background-color: map-get($colors, primary);
+        color: map-get($colors, dark);    
     }
 }
 
@@ -64,7 +64,7 @@ footer {
 .bi-facebook, .bi-instagram {
     font-size: 2em;
     &:hover {
-        color: $color-primary;
+        color: map-get($colors, primary);
     }
 }
 .bi-person-fill, .bi-cart {
@@ -73,23 +73,19 @@ footer {
 
 // BOOTSTRAP BUTTONS
 .btn-primary {
-    background-color: $color-secondary;
-    border: 1px solid $color-secondary;
+    @include btn-style(map-get($colors, secondary), (1px solid map-get($colors, secondary)));
 }
 
 .btn-primary:hover {
-        background-color: $color-secondary-pseudo;
-        border: 1px solid $color-secondary-pseudo;
+    @include btn-style(map-get($colors, secondary-pseudo), (1px solid map-get($colors, secondary-pseudo)));
 }
 
 .btn-primary:focus {
-    background-color: $color-secondary-pseudo;
-    border: 1px solid $color-secondary-pseudo;
+    @extend .btn-primary:hover;
     box-shadow: none !important;
 }
 
 .btn-primary:active {
-    background-color: $color-secondary-pseudo;
-    border: 1px solid $color-secondary-pseudo;
+    @extend .btn-primary:hover;
     box-shadow: none !important;
 }

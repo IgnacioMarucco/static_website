@@ -1,6 +1,6 @@
 // LAYOUT MAIN-WRAPPER
 .main-wrapper {
-    @extend .display-flex-column;
+    @extend %display-flex-column;
     row-gap: 1rem;
 }
 

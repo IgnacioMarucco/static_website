@@ -1,18 +1,18 @@
 /* PRODUCTOS */
 .productos_main {
-    @extend .display-flex-column;
+    @extend %display-flex-column;
 
     .sidebar {
         text-transform: uppercase;
         .navbar {
-            background-color: $color-bright !important;
+            background-color: map-get($colors, bright) !important;
         }
         a{
-            color: $color-dark;
+            color: map-get($colors, dark);
             text-decoration: none;
 
             &:hover {
-                border-bottom: solid 1px $color-primary;
+                border-bottom: solid 2px map-get($colors, primary);
             }
         }
     }
