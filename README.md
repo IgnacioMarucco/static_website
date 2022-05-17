@@ -1,18 +1,23 @@
 # Static Website
-Simple implementation of a static website from Coderhouse [curriculum](https://drive.google.com/file/d/1pqcSCouyEF0uN_CWZbVqdJkH0HrNZ3VQ/view).
+Pagina estatica como proyecto de Desarrollo Web en Coderhouse [curriculum](https://drive.google.com/file/d/1pqcSCouyEF0uN_CWZbVqdJkH0HrNZ3VQ/view).
 
-This is an **HTML/CSS** project. **Live version** is [here](https://nacxom.github.io/static_website/index.html).
-### First stage | Grid and Flexbox Layouts.
-* Deepened knowledge of how to **structure** a website.
-* Learned how to work with both **GRID** and **FLEXBOX**.
-* Learned about **Mobile First** design strategy and how to make the website **responsive**.
-* **Animations** and **Transitions**.
+Esto es un proyecto **HTML/CSS/SASS**. Link a la **live version** [aqui](https://nacxom.github.io/static_website/index.html).
+### Primera Etapa | Flexbox y Grid Layouts.
+* Como trabajar con Flexbox y Grid en simultaneo.
+* Estrategia **Mobyle First** y como hacer un sitio responsive.
+* Animaciones y Transiciones. 
 
-### Second stage | Bootstrap.
-* Learned how to work with a **Framework**.
-* **Bootstrap** GRID system for responsive web design.
+### Segunda Etapa | Bootstrap.
+* Como trabajar con un **Framework**.
+* Sistema de grid de **Bootstrap**.
 
-### Third stage | SASS.
+### Tercera Etapa | SASS.
 * **SCSS** syntax.
 * **Import** partial files.
 * **Variables**.
+* **Map, Mixin, Extend, Loops**.
+
+### Cuarta Etapa | SEO.
+* **Meta** tag.
+* Accesibilidad.
+* Optimizacion de imagenes.
