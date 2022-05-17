@@ -21,3 +21,4 @@ Esto es un proyecto **HTML/CSS/SASS**. Link a la **live version** [aqui](https:/
 * **Meta** tag.
 * Accesibilidad.
 * Optimizacion de imagenes.
+* [Link al doc con cambios de SEO](https://docs.google.com/document/d/1WGtnRrjMgYiz-EVmzCS7Y_ADj0SjSGhACiAFbsmdpHM/edit?usp=sharing).
