@@ -71,7 +71,7 @@ footer {
     font-size: 1.3rem !important;
 }
 
-// BOOTSTRAP BUTTONS
+// BOOTSTRAP BUTTONS utilizando extend y mixin
 .btn-primary {
     @include btn-style(map-get($colors, secondary), (1px solid map-get($colors, secondary)));
 }
