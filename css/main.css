@@ -202,7 +202,7 @@ footer {
   margin-top: -1rem;
   min-height: 90vh;
   justify-content: flex-end;
-  background: linear-gradient(180deg, #0009, #0002, #0009), url("./../public/colmenas.jpg");
+  background: linear-gradient(180deg, #0009, #0002, #0009), url("./../public/colmenas.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -252,10 +252,10 @@ footer {
   padding: 10px;
   text-align: center; }
   .historia .imgBackgroundOne, .premios .imgBackgroundOne {
-    background: url("./../public/apicultor_familia2_smaller.jpg");
+    background: url("./../public/apicultor_familia2.webp");
     z-index: -1; }
   .historia .imgBackgroundTwo, .premios .imgBackgroundTwo {
-    background-image: url("./../public/apicultor_familia.jpg");
+    background-image: url("./../public/apicultor_familia.webp");
     z-index: -1; }
   .historia .parallax, .premios .parallax {
     background-attachment: fixed;
