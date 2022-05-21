@@ -14,7 +14,9 @@ header {
 // FOOTER
 footer {
     font-family: $font-header !important;
-
+    li{
+        margin: 10px 0px;
+    }
     a{
         color: map-get($colors, bright);
         text-decoration: none;
@@ -25,6 +27,7 @@ footer {
     }
     h6 {
         color: map-get($colors, bright) !important;
+        margin-top: 10px;
     }
 }
 
