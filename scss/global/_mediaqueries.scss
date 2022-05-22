@@ -1,5 +1,6 @@
 // MEDIA QUERIES
-//Pantalla Tablet
+//PANTALLA TABLET
+
 @media screen and (min-width: $tablet) {
     //PAGINA INDEX
     .header-index {
@@ -11,7 +12,6 @@
         .nav-link {
             color: map-get($colors, bright) !important;
         }
-
         .active {
             color: map-get($colors, primary) !important;
         }
@@ -46,12 +46,6 @@
         align-self: center;
     }
 
-    //PAGINA PRODUCTOS
-    .productos_main {
-        flex-flow: row;
-        align-items: center;
-    }
-
     //PAGINA SERVICIOS
     .serviciosDescripcion {
         max-width: 70vw;
@@ -68,9 +62,18 @@
 
 }
 
-//Pantalla Laptop
+//PANTALLA LAPTOP
 
 @media screen and (min-width: $laptop) {
+    // Ajustes PAGINA PRODUCTOS
+    .productos_main {
+        grid-template-areas: 
+        'sidebar gridproductos'
+        'devoluciones devoluciones'
+        ;
+    }
+
+    // Ajustes PAGINA CONTACTO
     .contacto_main {
         grid-template-areas: 
         "info horarios formulario"

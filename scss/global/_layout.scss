@@ -36,9 +36,29 @@
     }
 }
 
-// LAYOUT PAGINA CONTACTO
+// LAYOUT PAGINA PRODUCTOS
+.productos_main{
+    display: grid;
+    grid-template-areas: 
+    'sidebar'
+    'gridproductos'
+    'devoluciones'
+    ;
+    
+    align-items: center;
 
-/* CONTACTO */
+    .sidebar{
+        grid-area: sidebar;
+    }
+    .grid-productos {
+        grid-area: gridproductos;
+    }
+    .devoluciones {
+        grid-area: devoluciones;
+    }
+}
+
+// LAYOUT PAGINA CONTACTO
 .contacto_main {
     display: grid;
     grid-template-areas: 

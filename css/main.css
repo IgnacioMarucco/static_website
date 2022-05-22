@@ -95,7 +95,7 @@ h6 {
 p {
   font-size: 1rem; }
 
-.main-wrapper, .heroSection, .productos_main {
+.main-wrapper, .heroSection {
   display: flex;
   flex-direction: column; }
 
@@ -118,7 +118,17 @@ p {
   .index_main .testimonios {
     grid-area: testimonios; }
 
-/* CONTACTO */
+.productos_main {
+  display: grid;
+  grid-template-areas: 'sidebar' 'gridproductos' 'devoluciones';
+  align-items: center; }
+  .productos_main .sidebar {
+    grid-area: sidebar; }
+  .productos_main .grid-productos {
+    grid-area: gridproductos; }
+  .productos_main .devoluciones {
+    grid-area: devoluciones; }
+
 .contacto_main {
   display: grid;
   grid-template-areas: "info" "horarios" "formulario" "googleMap";
@@ -220,8 +230,7 @@ footer {
         color: #FFF;
         text-shadow: 1px 1px #000; }
   .heroSection .benefits {
-    font-size: 1.5rem;
-    padding: 1rem; }
+    font-size: 1.5rem; }
 
 .destacados {
   text-align: center; }
@@ -328,9 +337,6 @@ footer {
     max-width: 400px;
     justify-self: center;
     align-self: center; }
-  .productos_main {
-    flex-flow: row;
-    align-items: center; }
   .serviciosDescripcion {
     max-width: 70vw;
     margin: auto; }
@@ -338,6 +344,8 @@ footer {
     grid-template-areas: "info info" "horarios formulario" "googleMap googleMap"; } }
 
 @media screen and (min-width: 1024px) {
+  .productos_main {
+    grid-template-areas: 'sidebar gridproductos' 'devoluciones devoluciones'; }
   .contacto_main {
     grid-template-areas: "info horarios formulario" "googleMap googleMap googleMap"; }
   .googleMap {
