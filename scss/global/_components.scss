@@ -1,5 +1,9 @@
 // HEADER
 header {
+    ul {
+        display: flex;
+        align-items: center;
+    }
     font-family: $font-header;
     #logo{
         width: 60px;

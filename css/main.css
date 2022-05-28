@@ -149,6 +149,9 @@ p {
 
 header {
   font-family: "Anybody", Helvetica, sans-serif; }
+  header ul {
+    display: flex;
+    align-items: center; }
   header #logo {
     width: 60px; }
   header li > a:hover {
