@@ -319,6 +319,15 @@ footer {
   .contacto_main .formulario h2 {
     color: #FFF; }
 
+.main_notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .main_notfound img {
+    height: 300px;
+    width: 300px; }
+
 @media screen and (min-width: 768px) {
   .header-index .bg-dark {
     background: #0000 !important; }
